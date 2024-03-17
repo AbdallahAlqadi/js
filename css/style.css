@@ -1,0 +1,75 @@
+#navBar{
+    background-color: rgb(18, 18, 19);
+    width: 1240px;
+    padding-top: 30px;
+    padding-left: 100px;
+    
+}
+
+#navBar h1{
+    color: rgb(238, 241, 241);
+    text-align: center;
+margin-bottom: 30px;
+}
+
+
+footer{
+    background-color: rgb(13, 13, 14);
+    position:inherit;
+    color: aliceblue;
+    bottom: 0%;
+    width: 1340px;
+    text-align: center;
+    height: 60px;
+margin-top: 217px;
+}
+
+
+#menu{
+    margin-left: 220px;
+   padding-bottom: 15px;
+  
+}
+
+.navbuttons{
+    margin-left: 50px;
+    padding-left: 10px;
+    border-radius: 9px;
+    height: 35px;
+    width: 70px;
+    border-style:groove;
+}
+
+.navbuttons:hover{  
+   background-color: rgb(161, 29, 157);
+}
+
+/*make the nav and footer responsive for  mobile ,tab,pc */
+/* we can change  the style depends on the user or client screen width*/
+body{
+    background-color: rgb(245, 245, 245);
+    height:375px;
+}
+@media only screen and (max-width: 680px) {
+    body{
+      background-color: red;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    #navBar{
+
+width: 1200px;
+
+    }
+   body{
+      background-color: rgb(55, 0, 255);
+     
+     
+    }
+  }
+
+  #img1{
+    width: 10px;
+    height: 10px;
+  }
