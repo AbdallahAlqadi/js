@@ -3,6 +3,7 @@
     width: 1240px;
     padding-top: 30px;
     padding-left: 100px;
+   
     
 }
 
@@ -10,6 +11,7 @@
     color: rgb(238, 241, 241);
     text-align: center;
 margin-bottom: 30px;
+margin-right: 160px;
 }
 
 
@@ -69,7 +71,4 @@ width: 1200px;
     }
   }
 
-  #img1{
-    width: 10px;
-    height: 10px;
-  }
+  
