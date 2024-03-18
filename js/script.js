@@ -30,11 +30,50 @@ console.log(person2)
 console.log(person2.age)*/
 
 
-var age=100;
+/*var age=100;
 if(age==='100'){
 
     console.log("is equal")
 }
 else{
     console.log("is not equal")
+}*/
+
+/*
+بطبع tage كامل 
+var header=document.getElementById('header');
+console.log(header);
+*/
+
+/*
+بطبع محتوى tage
+var header=document.getElementById('header');
+console.log(header.innerHTML);
+*/
+
+
+/*
+بعدل على محتوى tage
+var header=document.getElementById('header');
+console.log(header.innerHTML);
+header.innerHTML='Js edit this contant';*/
+
+
+
+/*
+طريقه كتابه function مع استدعائه
+function myfunction(){
+    console.log('hellos world')
+}
+myfunction()*/
+
+
+function myfunction(){
+   var n1=document.getElementById('n1').value;
+   var n2=document.getElementById('n2').value;
+   var result=document.getElementById('result');
+  var sum=parseInt(n1)+ parseInt(n2);
+result.innerHTML=sum;
+console.log(result)
+
 }
