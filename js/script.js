@@ -68,6 +68,7 @@ function myfunction(){
 myfunction()*/
 var header=document.getElementById('header');
 console.log(header.innerHTML);
+header.innerHTML='JS edit'
 
 var form=document.getElementById('form');
 console.log(form)
@@ -77,14 +78,31 @@ console.log(form)
 
 form.addEventListener('submit',function(event){
     event.preventDefault();
+ 
     var n1=document.getElementById('n1').value;
    var n2=document.getElementById('n2').value;
    var result=document.getElementById('result');
-   var sum=parseInt(n1)+ parseInt(n2);
+   switch(selectedop.value){
+    case'+':
+    var sum=parseInt(n1)+ parseInt(n2);
    alert("sumation is: "+sum);
-   console.log(sum)
-   result.innerHTML=sum;
-   console.log(result)
+   result.innerHTML=sum; break;
+
+   case '-':
+    var sum=parseInt(n1)- parseInt(n2);
+   alert("subtraction is: "+sum);
+   result.innerHTML=sum; break;
+   case '/':
+    var sum=parseInt(n1)/parseInt(n2);
+   alert("division is: "+sum);
+   result.innerHTML=sum; break;
+   case '*':
+    var sum=parseInt(n1) * parseInt(n2);
+   alert("multiplicition is: "+sum);
+   result.innerHTML=sum; break;
+   }
+  
+
 })
 
 
