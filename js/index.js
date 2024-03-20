@@ -66,16 +66,14 @@ function myfunction(){
     console.log('hellos world')
 }
 myfunction()*/
-var header=document.getElementById('header');
-console.log(header.innerHTML);
-header.innerHTML='JS edit'
+
 
 var form=document.getElementById('form');
 console.log(form)
  var selectedop=document.getElementById('selectedop');
 
 
-
+var navBarbackground=document.getElementsByName('bg-light');
 form.addEventListener('submit',function(event){
     event.preventDefault();
  
