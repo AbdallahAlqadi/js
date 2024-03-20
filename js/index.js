@@ -73,7 +73,7 @@ console.log(form)
  var selectedop=document.getElementById('selectedop');
 
 
-var navBarbackground=document.getElementsByName('bg-light');
+var navBarbackground=document.getElementsByName('container-fluid')[0];
 form.addEventListener('submit',function(event){
     event.preventDefault();
  

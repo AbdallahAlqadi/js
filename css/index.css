@@ -1,22 +1,24 @@
 
 
-.bg-light{
-    background-color: rgb(18, 18, 19);
-    width: 1240px;
+.container-fluid{
+    background-color: rgb(127, 194, 136);
+   
     padding-top: 30px;
     padding-left: 100px;
    
     
 }
-
+li.nav-link{
+    color: aliceblue;
+}
 
 
 footer{
-    background-color: rgb(13, 13, 14);
+    background-color:rgb(127, 194, 136);
     position:inherit;
     color: aliceblue;
     bottom: 0%;
-    width: 1340px;
+    
     text-align: center;
     height: 60px;
 margin-top: 365px;
