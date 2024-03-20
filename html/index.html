@@ -29,15 +29,22 @@
             </div>
         
     <div id="contant">
-        <br>
-  
-<input type="number" name="number" id="n1">
-<input type="text" name="text" id="op" style="width: 20px; height: 10px;">
-<input type="number" name="number" id="n2">
+        
+  <form id="form">
+    <h1>test</h1>
+<input required type="number" name="number" id="n1" >
+<select name="" id="selectedop">
+  <option value="+">+</option>
+  <option value="-">-</option>
+  <option value="/">/</option>
+  <option value="*">*</option>
+</select>
+<input required type="number" name="num2" id="n2" >
 =
 <span id="result">??</span>
-<button onclick="myfunction()">calculate</button>
-
+<input type="submit">
+<!--<button onclick="myfunction()">calculate</button>-->
+</form>
 
 
 

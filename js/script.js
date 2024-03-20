@@ -66,35 +66,25 @@ function myfunction(){
     console.log('hellos world')
 }
 myfunction()*/
+var header=document.getElementById('header');
+console.log(header.innerHTML);
+
+var form=document.getElementById('form');
+console.log(form)
+ var selectedop=document.getElementById('selectedop');
 
 
-function myfunction(){
-   var n1=document.getElementById('n1').value;
-   var op=document.getElementById('op').value;
+
+form.addEventListener('submit',function(event){
+    event.preventDefault();
+    var n1=document.getElementById('n1').value;
    var n2=document.getElementById('n2').value;
    var result=document.getElementById('result');
-   if(op=='+'){
-  var sum=parseInt(n1)+ parseInt(n2);
-result.innerHTML=sum;
-console.log(result)}
-
-else if(op=='-'){
-    var sum=parseInt(n1)- parseInt(n2);
-result.innerHTML=sum;
-console.log(result)}
-
-else if(op=='*'){
-    var sum=parseInt(n1)* parseInt(n2);
-result.innerHTML=sum;
-console.log(result)}
-
-else if(op=='/'){
-    var sum=parseInt(n1)/parseInt(n2);
-result.innerHTML=sum;
-console.log(result)}
-}
-
-
-
+   var sum=parseInt(n1)+ parseInt(n2);
+   alert("sumation is: "+sum);
+   console.log(sum)
+   result.innerHTML=sum;
+   console.log(result)
+})
 
 
