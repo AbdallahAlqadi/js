@@ -8,9 +8,6 @@
    
     
 }
-li.nav-link{
-    color: aliceblue;
-}
 
 
 footer{
@@ -31,18 +28,8 @@ margin-top: 330px;
   
 }
 
-.navbuttons{
-    margin-left: 50px;
-    padding-left: 10px;
-    border-radius: 9px;
-    height: 35px;
-    width: 70px;
-    border-style:groove;
-}
 
-.navbuttons:hover{  
-   background-color: rgb(161, 29, 157);
-}
+
 
 /*make the nav and footer responsive for  mobile ,tab,pc */
 /* we can change  the style depends on the user or client screen width*/
@@ -57,7 +44,7 @@ body{
   }
 
   @media only screen and (max-width: 480px) {
-    #navBar{
+    .container-fluid{
 
 width: 1200px;
 
